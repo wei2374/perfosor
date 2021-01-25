@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/my_executable.dir/src/serial.c.o  -o my_executable ../my_library/libmy_library.a 

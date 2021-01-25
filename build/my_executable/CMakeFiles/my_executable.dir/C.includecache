@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../my_executable/../my_library/include/cssl.h
+stdint.h
+-
+signal.h
+-
+termios.h
+-
+
+../my_executable/../my_library/include/datex_lib.h
+
+/home/wei/Documents/DHM/perfusor/my_executable/src/serial.c
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+cssl.h
+/home/wei/Documents/DHM/perfusor/my_executable/src/cssl.h
+datex_lib.h
+/home/wei/Documents/DHM/perfusor/my_executable/src/datex_lib.h
+
